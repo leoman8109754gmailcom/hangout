@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         catImgIndex = (catImgIndex + 1) % catImages.length;
         catImg.src = catImages[catImgIndex];
         // After 20 presses, hide the No button
-        if (noClickCount >= 20) {
+        if (noClickCount >= 15) {
             noBtn.style.display = 'none';
             yesBtn.textContent = "Now you have to say yes";
         }
