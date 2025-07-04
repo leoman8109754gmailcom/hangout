@@ -38,3 +38,8 @@ img {
     padding: 10px20px;
     font-family: "Zen Dots", sans-serif;
 }
+#yesBtn, #noBtn {
+    color: #222 !important;
+    -webkit-text-fill-color: #222 !important; /* For iOS Safari */
+    -webkit-tap-highlight-color: transparent;
+}
