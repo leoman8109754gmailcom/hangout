@@ -1,0 +1,41 @@
+.zen-dots-regular {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    font-family: "Zen Dots", sans-serif;
+    background: #756341;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1 {
+    color: #333;
+}
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+img {
+    border-radius: 15px;
+}
+
+#yesBtn {
+    background-color: #2e9975;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    font-family: "Zen Dots", sans-serif;
+}
+#noBtn {
+    background-color: #8d2f2f;
+    border-radius: 10px;
+    border: none;
+    padding: 10px20px;
+    font-family: "Zen Dots", sans-serif;
+}
